@@ -1,0 +1,17 @@
+{
+  "name": "test-action",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "yarn build && node dist/run.js",
+    "check": "yarn start"
+  },
+  "dependencies": {
+    "systeminformation": "^5.27.11"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "typescript": "^5.8.3"
+  }
+}
